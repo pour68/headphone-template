@@ -64,14 +64,14 @@ window.addEventListener("scroll", scrollActive);
 
 const sr = ScrollReveal({
   distance: "60px",
-  duration: 2500,
+  duration: 1500,
   delay: 400,
   // reset: true
 });
 
 sr.reveal(`.home__header, .section__title`, { delay: 600 });
 sr.reveal(`.home__footer`, { delay: 700 });
-sr.reveal(`.home__img`, { delay: 900, origin: "top" });
+sr.reveal(`.home__img`, { delay: 800, origin: "top" });
 
 sr.reveal(
   `.sponsor__img, .products__card, .footer__logo, .footer__content, .footer__copy`,

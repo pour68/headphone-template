@@ -1,0 +1,48 @@
+.home__img {
+    width: 250px;
+    position: absolute;
+    top: -16rem;
+    right: 1.5rem;
+}
+
+.home__data {
+    padding-top: 5rem;
+}
+
+.home__header {
+    position: relative;
+}
+
+.home__title {
+    position: absolute;
+    top: -4rem;
+    left: 1rem;
+    line-height: 6rem;
+    font-size: var(--fs-bigger);
+    background: var(--text-gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.home__subtitle {
+    font-size: var(--fs-big);
+    margin-bottom: var(--mb-5);
+}
+
+.home__title-description {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-medium);
+    margin-bottom: var(--mb-1);
+}
+
+.home__description {
+    margin-bottom: var(--mb-5);
+    line-height: var(--text-line-height);
+}
+
+.home__price {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-semi-bold);
+    margin-left: var(--mb-1);
+}

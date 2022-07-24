@@ -1,0 +1,30 @@
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.section__title {
+    font-size: var(--fs-bigger);
+    text-align: center;
+    margin-bottom: var(--mb-5);
+}
+
+.section__title-gradient {
+    background: var(--text-gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 968px;
+    margin-left: var(--mb-3);
+    margin-right: var(--mb-3);
+}
+
+.d-grid {
+    display: grid;
+}

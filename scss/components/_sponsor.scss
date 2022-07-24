@@ -1,0 +1,10 @@
+.sponsor__img {
+    width: 90px;
+}
+
+.sponsor__container {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    row-gap: 5rem;
+    justify-items: center;
+    align-items: center;
+}

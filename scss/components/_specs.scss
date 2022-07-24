@@ -1,0 +1,38 @@
+.specs__container {
+    position: relative;
+}
+
+.specs__content {
+    row-gap: 1.5rem;
+}
+
+.specs__data {
+    display: grid;
+    row-gap: 0.25rem;
+}
+
+.specs__icon {
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+
+.specs__title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+}
+
+.specs__subtitle {
+    font-size: var(--fs-xs);
+}
+
+.specs__data:nth-child(1),
+.specs__data:nth-child(4) {
+    margin-left: 1.5rem;
+}
+
+.specs__img {
+    width: 250px;
+    position: absolute;
+    top: 2rem;
+    right: -4rem;
+}

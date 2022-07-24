@@ -1,0 +1,53 @@
+:root {
+    --header-height: 3rem;
+
+    --hue-color: 206;
+    --black-color: hsl(var(--hue-color), 4%, 4%);
+    --black-color-alt: hsl(var(--hue-color), 4%, 8%);
+    --title-color: hsl(var(--hue-color), 4%, 95%);
+    --text-color: hsl(var(--hue-color), 4%, 75%);
+    --text-color-light: hsl(var(--hue-color), 4%, 65%);
+    --white-color: #FFF;
+    --body-color: hsl(var(--hue-color), 4%, 6%);
+    --container-color: hsl(var(--hue-color), 4%, 10%);
+    --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+    --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
+    --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
+
+    --body-font: "Poppins", sans-serif;
+    --fs-bigger: 5rem;
+    --fs-big: 3.5rem;
+    --fs-xxl: 2.5rem;
+    --fs-xl: 1.25rem;
+    --fs-lg: 1.125rem;
+    --fs-md: 0.938rem;
+    --fs-sm: 0.813rem;
+    --fs-xs: 0.75rem;
+    --text-line-height: 2rem;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+
+    --zi-tooltip: 10;
+    --zi-fixed: 100;
+}
+
+@media screen and (min-width: 968px) {
+    :root {
+        --fs-bigger: 7.5rem;
+        --fs-big: 4.5rem;
+        --fs-xxl: 4rem;
+        --fs-xl: 1.5rem;
+        --fs-lg: 1.25rem;
+        --fs-md: 1rem;
+        --fs-sm: 0.875rem;
+        --fs-xs: 0.813rem;
+    }
+}
